@@ -202,3 +202,14 @@ public void setMiddleName(String middleName) {
   this.middleName = middleName;
 }
 ```
+## 継承
+オブジェクト指向では、あるクラスの内容を他のクラスが引き継ぐことができる。継承とはスーパークラスを元に、機能を拡張したサブクラスを作るための機能である。
+```
+class スーパークラス{
+}
+```
+```
+class　サブクラス名　extends スーパークラス名　{
+}
+```
+上記のような記述をすることで、スーパークラスの内容を継承できる。extendsとは拡張という意味。
